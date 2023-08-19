@@ -21,8 +21,8 @@ export default function Home() {
     <React.Fragment>
 
       <Navbar />
-      <Beforestart />
       <Vacancies />
+      <Beforestart />
     </React.Fragment>
 
   );
