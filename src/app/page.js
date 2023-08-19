@@ -8,6 +8,8 @@ import 'aos/dist/aos.css';
 import Footer from '@/Components/Footer';
 import WorkWith from '@/Components/WorkWith';
 import Carousel from '@/Components/Carousel';
+import Slider from '@/Components/Slider';
+
 
 export default function Home() {
   useEffect(() => {
@@ -25,6 +27,7 @@ export default function Home() {
 
       <Navbar />
       <Carousel/>
+      <Slider/>
       <Beforestart />
       <Vacancies />
       <WorkWith/>

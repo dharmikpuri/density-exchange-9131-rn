@@ -1,0 +1,40 @@
+.slide-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 600px; /* Adjust the width to your preference */
+    height: auto; /* Adjust the height to your preference */
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .tilted-card {
+    transform: rotate(-10deg);
+    color: #fff;
+  }
+  
+  .slider {
+    display: flex;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slide-card {
+    flex: 0 0 calc(100% / 4); /* Set the width for each card */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slider.slide {
+    transform: translateX(calc(-100% / 3)); /* Move the slider to the left */
+  }
+  
+  .slider-button {
+    margin-top: 10px;
+    cursor: pointer;
+  }
