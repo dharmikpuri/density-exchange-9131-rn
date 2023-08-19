@@ -9,6 +9,9 @@ import Footer from '@/Components/Footer';
 import WorkWith from '@/Components/WorkWith';
 import Carousel from '@/Components/Carousel';
 import Slider from '@/Components/Slider';
+import MeetAhed from '@/Components/MeetAhed';
+import SelfImprovement from '@/Components/SelfImprovement';
+import Wondered from '@/Components/Wondered';
 
 
 export default function Home() {
@@ -28,9 +31,12 @@ export default function Home() {
       <Navbar />
       <Carousel/>
       <Slider/>
+      <MeetAhed/>
+      <SelfImprovement/>
+      <Wondered/>
       <Beforestart />
-      <Vacancies />
       <WorkWith/>
+      <Vacancies />
       <Footer/>
     </React.Fragment>
 

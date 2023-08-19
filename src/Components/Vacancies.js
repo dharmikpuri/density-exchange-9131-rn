@@ -8,7 +8,7 @@ import {
   Button,
 } from '@chakra-ui/react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FcAssistant, FcDonate, FcInTransit } from 'react-icons/fc';
+
 
 const Feature = ({ title, points }) => {
   const [hovered, setHovered] = useState(false);
@@ -37,7 +37,7 @@ const Feature = ({ title, points }) => {
           </Text>
           <ul>
             {points.map((point, index) => (
-              <li
+              <p
                 key={index}
                 color="gray.700"
                 fontSize="sm"
@@ -48,7 +48,7 @@ const Feature = ({ title, points }) => {
                   •
                 </Box>
                 {point}
-              </li>
+              </p>
             ))}
           </ul>
         </div>
@@ -83,7 +83,7 @@ const Feature = ({ title, points }) => {
 export default function Vacancies() {
   return (
     <ChakraProvider>
-      <Box p={4} w="70%" mx="auto">
+      <Box p={4} w="90%" m="auto" mt={"100px"}>
         <Heading as="h1" textAlign="left" fontSize="2xl" color="gray.800" mb={4}>
           Open Vacancies
         </Heading>

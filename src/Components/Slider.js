@@ -63,7 +63,7 @@ const Slider = () => {
         </Card>
         <Card 
          data-aos="flip-right"
-        className="slide-card" bgColor="#FFFFFF">
+        className="slide-card" bgColor="#eeebfe">
           <Text fontSize="2xl">😅</Text>
           <Text fontWeight="bold" fontSize="xl">
             You argue with a colleague
@@ -84,7 +84,7 @@ const Slider = () => {
             yourself & your abilities.
           </Text>
         </Card>
-        <Card  data-aos="flip-left" className="slide-card" bgColor="#FFFFFF">
+        <Card  data-aos="flip-left" className="slide-card" bgColor="#ffefd5">
           <Text fontSize="2xl">😮‍💨</Text>
           <Text fontWeight="bold" fontSize="xl">
             Quibble with your partner
