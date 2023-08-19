@@ -7,6 +7,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Footer from '@/Components/Footer';
 import WorkWith from '@/Components/WorkWith';
+import Carousel from '@/Components/Carousel';
 
 export default function Home() {
   useEffect(() => {
@@ -17,12 +18,13 @@ export default function Home() {
         // Other AOS options...
       });
     }
-  }, []); // Empty dependency array ensures the effect runs once after component mount
+  }, []); 
 
   return (
     <React.Fragment>
 
       <Navbar />
+      <Carousel/>
       <Beforestart />
       <Vacancies />
       <WorkWith/>

@@ -40,12 +40,12 @@ export default function Beforestart() {
         initial="hidden"
         animate="visible"
       >
-        <motion.div data-aos="fade" data-aos-once="true">
+        <motion.div data-aos="fade">
           <Text fontSize="lg" color="black">
             We take privacy seriously
           </Text>
         </motion.div>
-        <motion.div data-aos="fade" data-aos-once="true">
+        <motion.div data-aos="fade">
           <Heading
             fontWeight={800}
             fontSize={{ base: 'md', sm: '2xl', md: '4xl' }}
@@ -54,12 +54,12 @@ export default function Beforestart() {
             Before you get started
           </Heading>
         </motion.div>
-        <motion.div data-aos="fade" data-aos-once="true">
+        <motion.div data-aos="fade">
           <Text fontSize="lg" color="black" noOfLines={2} w="600px" mr="70px">
             "We won't share your answers with anyone (and won't ever tell you which friends said what about you)"
           </Text>
         </motion.div>
-        <motion.div data-aos="fade" data-aos-once="true">
+        <motion.div data-aos="fade">
           {/* <Text fontSize="lg" color="black">
             
           </Text> */}
@@ -72,7 +72,7 @@ export default function Beforestart() {
 
 
         </motion.div>
-        <motion.div data-aos="fade" data-aos-once="true">
+        <motion.div data-aos="fade">
           <Box display="flex" justifyContent="center">
             <Button
               color="white"
@@ -90,7 +90,7 @@ export default function Beforestart() {
             </Button>
           </Box>
         </motion.div>
-        <motion.div data-aos="fade" data-aos-once="true">
+        <motion.div data-aos="fade">
           <Text fontSize="lg" color="black">
             Take only 5 minutes
           </Text>
