@@ -15,7 +15,6 @@ export default function Beforestart() {
   useEffect(() => {
     AOS.init({
       duration: 800, // Duration of animations
-      once: true, // Animation will occur only once
     });
   }, []);
 
@@ -61,9 +60,17 @@ export default function Beforestart() {
           </Text>
         </motion.div>
         <motion.div data-aos="fade" data-aos-once="true">
-          <Text fontSize="lg" color="black">
-            with love, keen aros
-          </Text>
+          {/* <Text fontSize="lg" color="black">
+            
+          </Text> */}
+          <div style={{ display: 'inline-block', transform: 'rotate(-5deg)',fontSize:"lg" ,color:"black" }}>
+            with love,{' '}
+              <span style={{ fontFamily: 'cursive' }}>keen aros</span>
+            </div>
+
+
+
+
         </motion.div>
         <motion.div data-aos="fade" data-aos-once="true">
           <Box display="flex" justifyContent="center">
@@ -76,6 +83,8 @@ export default function Beforestart() {
               _hover={{
                 bg: 'gray.900',
               }}
+              pl={4}
+              pr={4}
             >
               Start a Test
             </Button>

@@ -23,7 +23,7 @@ const Feature = ({ title, points }) => {
         p={4}
         border="1px solid black"
         borderRadius="md"
-        bg={hovered ? 'orange' : '#fefbec'}
+        bg={hovered ? 'orange.100' : '#fefbec'}
         boxShadow="base"
         mb={4}
         transition="background-color 0.3s"
