@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import { Box, Card, Flex, Heading, Image, Text, SimpleGrid } from '@chakra-ui/react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import "../app/globals.css"
 function WorkWith() {
     useEffect(() => {
         AOS.init({
@@ -32,7 +33,7 @@ function WorkWith() {
 
                 <Flex flexDirection="column" gap="10px">
                     <Heading color="#6341ef" textAlign={"end"} mr={"40px"} data-aos="fade-left">Ahead</Heading>
-                    <SimpleGrid height="400px" bg="white" p="10px" borderRadius="md" boxShadow="md" color="blue.500" scrollbarColor="blue.500" scrollbarWidth="thin" overflowY={"scroll"} gap={"25px"}>
+                    <SimpleGrid height="400px" bg="white" p="10px" borderRadius="md" boxShadow="md" color="blue.500" scrollbarColor="blue.500" scrollbarWidth="thin" overflowY={"scroll"} gap={"25px"} className='scrolling'>
                         <Card p="20px" boxShadow="md" borderRadius="md" bg="white">
                             <Text fontWeight="bold">
                                 Power through, even when the going gets tough

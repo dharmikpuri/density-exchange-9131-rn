@@ -10,6 +10,7 @@ import {
 } from "@chakra-ui/react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "./selfimprovement.css"
 
 const SelfImprovement = () => {
   useEffect(() => {
@@ -70,7 +71,7 @@ const SelfImprovement = () => {
 
       <VStack
         data-aos="fade-up"
-        
+        className="scrolling"
         style={{ overflowX: "hidden", height: "400px" , }}
         _hover={{overflowY:"scroll"}}
         h={"400px"}
@@ -90,8 +91,8 @@ const SelfImprovement = () => {
             data-aos-anchor-placement="center-bottom"
 
           >
-            <Circle size="20px" bg="blue.500" />
-            <Box h="100px" w="2px" bg="blue.500" ml={2} />
+            <Circle size="20px" bg="#6541f1" />
+            <Box h="100px" w="5px" bg="#c9bdfa" ml={2} />
             <VStack align="start" ml={4} spacing={1}>
               <Text fontWeight="bold">{point.heading}</Text>
               <Text>{point.text}</Text>

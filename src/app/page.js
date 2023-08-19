@@ -12,6 +12,7 @@ import Slider from '@/Components/Slider';
 import MeetAhed from '@/Components/MeetAhed';
 import SelfImprovement from '@/Components/SelfImprovement';
 import Wondered from '@/Components/Wondered';
+import EQBeat from '@/Components/EQBeat';
 
 
 export default function Home() {
@@ -23,21 +24,24 @@ export default function Home() {
         // Other AOS options...
       });
     }
-  }, []); 
+  }, []);
 
   return (
     <React.Fragment>
 
       <Navbar />
-      <Carousel/>
-      <Slider/>
-      <MeetAhed/>
-      <SelfImprovement/>
-      <Wondered/>
+      <Carousel />
+      <EQBeat />
+      <Slider />
+      <MeetAhed />
+      <SelfImprovement />
+      <EQBeat />
+      <Wondered />
       <Beforestart />
-      <WorkWith/>
+      <WorkWith />
+
       <Vacancies />
-      <Footer/>
+      <Footer />
     </React.Fragment>
 
   );
