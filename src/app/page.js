@@ -5,6 +5,7 @@ import Vacancies from '@/Components/Vacancies';
 import Beforestart from '@/Components/Beforestart';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Footer from '@/Components/Footer';
 
 export default function Home() {
   useEffect(() => {
@@ -23,6 +24,7 @@ export default function Home() {
       <Navbar />
       <Vacancies />
       <Beforestart />
+      <Footer/>
     </React.Fragment>
 
   );
